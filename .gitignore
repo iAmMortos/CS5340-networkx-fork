@@ -64,3 +64,5 @@ benchmarks/results
 
 # Pixi
 .pixi/
+
+venv/
