@@ -66,3 +66,4 @@ benchmarks/results
 .pixi/
 
 venv/
+cache/
