@@ -67,3 +67,5 @@ benchmarks/results
 
 venv/
 cache/
+.venv/
+data/
