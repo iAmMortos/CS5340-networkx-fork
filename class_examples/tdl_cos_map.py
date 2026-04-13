@@ -1,9 +1,9 @@
 import networkx as nx
 import osmnx as ox
 
-place = {"city": "Colorado Springs", "state": "Colorado", "country": "USA"}
-G = ox.graph.graph_from_place(place, network_type="drive", truncate_by_edge=True)
-# fig, ax = ox.plot.plot_graph(G, figsize=(10, 10), node_size=0, edge_color="y", edge_linewidth=0.2)
+ox.settings.bidirectional_network_types += "drive"
+G = ox.graph.graph_from_place("Colorado Springs, Colorado, USA", network_type="drive")
+# fig, ax = ox.plot.plot_graph(G, edge_linewidth=.2, node_size=0)
 
 G = ox.routing.add_edge_speeds(G)
 G = ox.routing.add_edge_travel_times(G)
