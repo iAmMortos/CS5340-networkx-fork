@@ -1,3 +1,49 @@
+Fork of NetworkX for CS5340 at UCCS, Spring 2026
+================================================
+
+This repository exists for the sake of experimentation, research, and academia.
+Currently there are no plans to merge anything here back into the original NetworkX repository.
+
+**Contributors:**
+
+* `Taylor Lopez <https://github.com/iAmMortos>`_
+* `Levi Chinander <https://github.com/LochiRepo>`_
+
+**Important locations:**
+
+* ``class_examples/*.py`` - A sandbox for tinkering with NetworkX and its features.
+  * ``class_examples/tdl_sudoku_solver.py`` - an AI-generated Sudoku solver that uses NetworkX's Sudoku helpepr functions for building Sudoku frames.
+* ``class_examples/notebooks/*.ipynb`` - our demonstration Jupyter Notebooks shown during the final presentation.
+* ``imgs/*`` - Images and visualizations generated during our research.
+
+Installation Instructions
+-------------------------
+
+First create a virtual environment for the project:
+
+``python3 -m venv .venv``
+
+Activate your environment
+(On Linux)
+``source .venv/bin/activate``
+(On Windows)
+``.venv/Scripts/Activate.ps1``:
+
+Then install the required pip dependencies:
+
+``pip install -f requirements.txt``
+
+Jupyter Labs can be run inside the environment so the demo notebooks can be viewed.
+(from within the activated environment)
+
+``jupyter lab --port=8888``
+
+If the browser window doesn't launch automatically, the console output from the Jupyter process should provide a URL to paste into your browser that contains the token needed to access the application.
+
+From within Jupyter Labs, navigate to ``class_examples/notebooks``
+
+------------
+
 NetworkX
 ========
 
