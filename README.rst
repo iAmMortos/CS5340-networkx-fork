@@ -12,7 +12,7 @@ Currently there are no plans to merge anything here back into the original Netwo
 **Important locations:**
 
 * ``class_examples/*.py`` - A sandbox for tinkering with NetworkX and its features.
-  * ``class_examples/tdl_sudoku_solver.py`` - an AI-generated Sudoku solver that uses NetworkX's Sudoku helpepr functions for building Sudoku frames.
+    * ``class_examples/tdl_sudoku_solver.py`` - an AI-generated Sudoku solver that uses NetworkX's Sudoku helpepr functions for building Sudoku frames.
 * ``class_examples/notebooks/*.ipynb`` - our demonstration Jupyter Notebooks shown during the final presentation.
 * ``imgs/*`` - Images and visualizations generated during our research.
 
